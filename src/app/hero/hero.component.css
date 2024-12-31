@@ -1,0 +1,33 @@
+img {
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+* {
+  font-family: "TAN - TWINKLE";
+  text-transform: uppercase;
+  color: black;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+  padding: 2rem;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+
+}
+
+.occupation {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}

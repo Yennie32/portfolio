@@ -4,3 +4,8 @@ body {
   padding: 0;
   background-color: #fff9ee;
 }
+@font-face {
+  font-family: 'TAN - TWINKLE';
+  src: url('assets/fonts/TAN-Twinkle/TANTWINKLE.otf');
+}
+
