@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## NEXT STEPS
+- add media queries
+- make it responsive with ng cdk https://www.youtube.com/watch?v=aKxFbZG_3go&list=PLp-SHngyo0_iQ9x2X88s5VMSAjyf4cM4C&index=6&ab_channel=BrianTreese
+- make routes to project, about me, contact
+- update drawing & text
