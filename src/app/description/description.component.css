@@ -1,0 +1,36 @@
+.description{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+}
+
+.description-text {
+  flex: 2; /* Prend 2/3 de l'espace disponible */
+  display: flex; /* Utilisation de flexbox pour centrer le texte */
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  padding: 2rem 10rem; /* Pour espacer un peu le texte des bords */
+  border-right: 2px solid black;
+  text-align: center;
+}
+.contact-links {
+  flex: 1; /* Prend 1/3 de l'espace disponible */
+  display: flex;
+  flex-direction: column; /* Les liens sont affichés en colonne */
+  justify-content: center; /* Centrer les liens verticalement */
+  gap: 1rem; /* Ajouter un espace entre les liens */
+  font-family: "TAN - TWINKLE";
+  text-align: center;
+
+}
+
+.github-link, .linkedin-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: "Nunito Sans", serif;
+}
