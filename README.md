@@ -28,6 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## NEXT STEPS
 - add media queries
-- make it responsive with ng cdk
+- make it responsive with ng cdk https://www.youtube.com/watch?v=aKxFbZG_3go&list=PLp-SHngyo0_iQ9x2X88s5VMSAjyf4cM4C&index=6&ab_channel=BrianTreese
 - make routes to project, about me, contact
 - update drawing & text
