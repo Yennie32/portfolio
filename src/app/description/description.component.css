@@ -34,3 +34,9 @@
 p {
   font-family: "Nunito Sans", serif;
 }
+
+a:hover{
+  font-style: italic;
+  font-size: 1.5rem;
+  transition: font-size 0.5s;
+}

@@ -4,21 +4,119 @@
   font-size: 1.5rem;
   color: black;
 }
+
+.header {
+  padding: 10px 20px;
+  border-bottom: 3px solid black;
+  position: relative;
+}
+
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .nav-header ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0;
-  margin:0 ;
+  align-items: center;
 }
-.header {
-  padding: 10px 20px; /* Ajoute des marges internes */
-  border-bottom: 3px solid black; /* Ligne de séparation */
+
+/* Burger Menu Styles */
+.burger-container {
+  display: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff9ee;
+  border: 2px solid black;
+  position: relative;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.burger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25px;
+}
+
+.burger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: black;
+  margin: 6px 0;
+  transition: all 0.3s ease;
+}
+
+/* Animation de la transformation en croix */
+.burger-container.active .burger span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.burger-container.active .burger span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-container.active .burger span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .burger-container {
+    display: block;
+  }
+
+  .nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #fff9ee;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .nav-header.open {
+    transform: translateX(0);
+  }
+
+  .nav-header ul {
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  .nav-header ul li {
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
+/* Desktop Responsiveness */
+@media (min-width: 769px) {
+  .nav-header ul {
+    justify-content: space-around;
+  }
+
+  .nav-header ul li {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-header ul {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
