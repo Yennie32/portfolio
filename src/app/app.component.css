@@ -1,0 +1,4 @@
+.homepage {
+  height: 100vh; /* L'ensemble des 3 composants prend 100% de la hauteur de l'écran */
+  overflow-y: auto; /* Permet le scroll si nécessaire */
+}
