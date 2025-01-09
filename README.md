@@ -36,7 +36,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   - https://medium.com/@babatundelamidi/build-an-angular-contact-form-and-post-data-to-email-7b7327e56ad3
 - update drawing & text
 - carousel for projects :
-  - install coreUI ? = https://www.npmjs.com/package/@coreui/angular
+  - install coreUI : ng add @coreui/angular = https://www.npmjs.com/package/@coreui/angular
   - how to coreUI = https://coreui.io/angular/docs/components/carousel/
 
 ## COMPONENTS ORGANISATION
