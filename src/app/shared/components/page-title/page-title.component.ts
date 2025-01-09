@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-page-title',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './page-title.component.html',
   styleUrl: './page-title.component.css',
 })
-export class PageTitleComponent {}
+export class PageTitleComponent {
+  @Input() title: string = '';
+}
