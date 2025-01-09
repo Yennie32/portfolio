@@ -27,7 +27,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 ## NEXT STEPS
-- add media queries
-- make it responsive with ng cdk https://www.youtube.com/watch?v=aKxFbZG_3go&list=PLp-SHngyo0_iQ9x2X88s5VMSAjyf4cM4C&index=6&ab_channel=BrianTreese
+
+- stick the header to the top
+- title transition when enters the screen
 - make routes to project, about me, contact
+- add a scroll up button
+- add a contact form
+  - https://medium.com/@babatundelamidi/build-an-angular-contact-form-and-post-data-to-email-7b7327e56ad3
 - update drawing & text
+- carousel for project :
+  - install coreUI ? = https://www.npmjs.com/package/@coreui/angular
+  - how to coreUI = https://coreui.io/angular/docs/components/carousel/
