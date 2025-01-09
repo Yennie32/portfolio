@@ -38,3 +38,25 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - carousel for projects :
   - install coreUI ? = https://www.npmjs.com/package/@coreui/angular
   - how to coreUI = https://coreui.io/angular/docs/components/carousel/
+
+## COMPONENTS ORGANISATION
+
+### SHARED
+
+- page title
+- scroll up btn
+- description
+
+### PROJECTS
+
+- project title
+- carousel
+- lien github
+
+### CONTACT
+
+- contact form
+
+### ABOUT ME
+
+- image
