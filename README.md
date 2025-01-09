@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## NEXT STEPS
 
-- stick the header to the top
+- ~stick the header to the top~
 - title transition when enters the screen
 - make routes to project, about me, contact
 - add a scroll up button
