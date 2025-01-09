@@ -28,6 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## NEXT STEPS
 
+- ~stick the header to the top~
 - title transition when enters the screen
 - make routes to project, about me, contact
 - add a scroll up button
@@ -37,7 +38,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - carousel for projects :
   - install coreUI ? = https://www.npmjs.com/package/@coreui/angular
   - how to coreUI = https://coreui.io/angular/docs/components/carousel/
-
-## DONE
-
-- ~stick the header to the top~
