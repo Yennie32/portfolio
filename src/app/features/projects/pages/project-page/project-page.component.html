@@ -10,9 +10,10 @@
     >
       <h2>{{ slide.title }}</h2>
       <img [src]="slide.image" alt="{{ slide.title }}" />
+      <h3>{{ slide.infos }}</h3>
       <p>{{ slide.description }}</p>
     </div>
-    <button (click)="previousSlide()">Précédente</button>
-    <button (click)="nextSlide()">Suivante</button>
+    <button (click)="previousSlide()">&lt;</button>
+    <button (click)="nextSlide()">&gt;</button>
   </div>
 </div>
