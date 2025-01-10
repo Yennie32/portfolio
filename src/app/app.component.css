@@ -1,18 +1,1 @@
-header {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background-color: #fff9ee;
-}
-.homepage {
-  /* height: 100vh; L'ensemble des 3 composants prend 100% de la hauteur de l'écran */
-  overflow-y: auto; /* Permet le scroll si nécessaire */
-}
 
-section {
-  min-height: 100vh;
-}
-
-.portfolio-container {
-  scroll-behavior: smooth;
-}

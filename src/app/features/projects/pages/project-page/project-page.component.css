@@ -2,9 +2,19 @@
   display: flex;
   border-bottom: 3px solid black;
 }
-h2 {
+h2,
+a {
   font-family: "TAN - twinkle";
   text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+p {
+  padding: 1rem;
 }
 
 p,
@@ -72,4 +82,27 @@ button:first-of-type:hover {
 /* Bouton suivant */
 .carousel-container button:last-of-type {
   right: 10px;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    padding: 1rem;
+  }
+  .project-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel-container {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid black;
+  }
+  button {
+    display: none;
+  }
+  img {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
 }

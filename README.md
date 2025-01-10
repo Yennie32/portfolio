@@ -28,15 +28,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## NEXT STEPS
 
-- ~stick the header to the top~
-- title transition when enters the screen
-- add a scroll up button
+- PROJECT PAGE :
+  - from button to swipe
+  - create service
 - add a contact form
   - https://medium.com/@babatundelamidi/build-an-angular-contact-form-and-post-data-to-email-7b7327e56ad3
+- add a scroll up button
+- title transition when enters the screen
 - update drawing & text
-- carousel for projects :
-  - install coreUI : ng add @coreui/angular = https://www.npmjs.com/package/@coreui/angular
-  - how to coreUI = https://coreui.io/angular/docs/components/carousel/
+- ~~stick the header to the top~~
+- ~~carousel for projects~~
 
 ## COMPONENTS ORGANISATION
 
