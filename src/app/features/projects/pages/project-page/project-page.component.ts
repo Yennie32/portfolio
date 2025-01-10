@@ -17,6 +17,7 @@ export class ProjectPageComponent {
       infos: 'X coéquipiers, Langage : gnagnagnagna',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corporis similique consequuntur dolor, beatae deserunt consectetur ad repellat eos reprehenderit provident expedita excepturi rem possimus fugiat culpa modi facilis voluptatem hic libero. Fugiat voluptatum iure, quas possimus perferendis delectus eaque dignissimos accusamus debitis repudiandae repellendus esse quisquam assumenda necessitatibus ips',
+      github: 'github',
     },
     {
       title: 'Slide2',
@@ -24,6 +25,7 @@ export class ProjectPageComponent {
       infos: 'X coéquipiers, Langage : gnagnagnagna',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corporis similique consequuntur dolor, beatae deserunt consectetur ad repellat eos reprehenderit provident expedita excepturi rem possimus fugiat culpa modi facilis voluptatem hic libero. Fugiat voluptatum iure, quas possimus perferendis delectus eaque dignissimos accusamus debitis repudiandae repellendus esse quisquam assumenda necessitatibus ips',
+      github: 'github',
     },
     {
       title: 'Slide3',
@@ -31,6 +33,7 @@ export class ProjectPageComponent {
       infos: 'X coéquipiers, Langage : gnagnagnagna',
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corporis similique consequuntur dolor, beatae deserunt consectetur ad repellat eos reprehenderit provident expedita excepturi rem possimus fugiat culpa modi facilis voluptatem hic libero. Fugiat voluptatum iure, quas possimus perferendis delectus eaque dignissimos accusamus debitis repudiandae repellendus esse quisquam assumenda necessitatibus ips',
+      github: 'github',
     },
   ];
   currentSlide = 0;

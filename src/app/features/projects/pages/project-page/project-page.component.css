@@ -34,22 +34,42 @@ img {
   height: auto;
 }
 
-button {
+.carousel-container button {
+  position: absolute;
+  top: 35%;
   transform: translateY(-50%);
-  background-color: #fff9ee;
+  background-color: none;
   border: none;
-  padding: 1rem;
+  padding: 0;
   cursor: pointer;
   z-index: 1;
   margin: 2rem;
   border-radius: 50%;
-  font-size: 2rem;
+  font-size: 3rem;
+  background-color: #fff9ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
 }
 
-button:nth-child(2) {
-  left: 0;
+button:last-of-type:hover {
+  box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.73);
+  transition: box-shadow 1s;
 }
 
-button:nth-child(3) {
-  right: 0;
+button:first-of-type:hover {
+  box-shadow: -5px 5px 14px 0px rgba(0, 0, 0, 0.73);
+  transition: box-shadow 1s;
+}
+
+/* Bouton précédent */
+.carousel-container button:first-of-type {
+  left: 10px;
+}
+
+/* Bouton suivant */
+.carousel-container button:last-of-type {
+  right: 10px;
 }
