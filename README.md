@@ -30,7 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - ~stick the header to the top~
 - title transition when enters the screen
-- make routes to project, about me, contact
 - add a scroll up button
 - add a contact form
   - https://medium.com/@babatundelamidi/build-an-angular-contact-form-and-post-data-to-email-7b7327e56ad3

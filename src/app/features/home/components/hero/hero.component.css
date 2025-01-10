@@ -73,7 +73,7 @@
     align-items: center; /* Aligne les éléments verticalement */
     justify-content: space-around; /* Répartit uniformément les éléments avec de l'espace autour */
     border-bottom: 3px solid black;
-    height: 30rem;
+    height: 20rem;
   }
 
   .presentation {
