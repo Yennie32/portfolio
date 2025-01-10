@@ -1,1 +1,50 @@
+.project-page {
+  display: flex;
+  border-bottom: 3px solid black;
+}
 
+.page-title {
+  flex: 1;
+}
+
+.carousel-container {
+  flex: 2;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.carousel-slide.active {
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:nth-child(2) {
+  left: 0;
+}
+
+button:nth-child(3) {
+  right: 0;
+}
