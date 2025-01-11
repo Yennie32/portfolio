@@ -1,0 +1,62 @@
+.about-me-page {
+  display: flex;
+  border-bottom: 3px solid black;
+}
+.about-me-container {
+  display: flex;
+  flex: 2;
+}
+h1 {
+  display: flex;
+  font-family: "TAN - twinkle";
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+}
+img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.about-me-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito Sans", serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .about-me-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Ajouté pour centrer horizontalement */
+  }
+  .about-me-description,
+  .about-me-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Ajouté pour centrer horizontalement */
+    padding: 1rem; /* Pour un peu de marge intérieure */
+    margin: 1rem 0; /* Espacement vertical entre les éléments */
+    font-size: 1rem;
+  }
+  img {
+    width: 80%; /* Utilisation de pourcentage pour une meilleure adaptabilité */
+    max-width: 150px; /* Limite maximum pour ne pas trop agrandir */
+    height: auto; /* Pour garder les proportions de l'image */
+    object-fit: contain;
+  }
+}
