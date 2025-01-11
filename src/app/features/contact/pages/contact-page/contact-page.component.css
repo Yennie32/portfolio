@@ -1,0 +1,19 @@
+.page-title {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0;
+}
+app-page-title {
+  border-left: 3px solid black;
+  border-right: 0px;
+  text-align: right;
+  border-right: 0px;
+  justify-content: flex-end;
+}
+
+.contact-page {
+  display: flex;
+  flex: 2;
+  border-bottom: 3px solid black;
+}

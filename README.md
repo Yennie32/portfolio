@@ -29,8 +29,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## NEXT STEPS
 
 - PROJECT PAGE :
+- anchor links header
+  - https://community.spiceworks.com/t/angular-link-to-content-skip-to-content/785543
   - from button to swipe
-  - create service
+  - create service for carousel (on branch carousel-service)
 - add a contact form
   - https://medium.com/@babatundelamidi/build-an-angular-contact-form-and-post-data-to-email-7b7327e56ad3
 - add a scroll up button
