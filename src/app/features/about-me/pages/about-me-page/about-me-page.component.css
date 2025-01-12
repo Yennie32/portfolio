@@ -1,62 +1,69 @@
-.about-me-page {
-  display: flex;
-  border-bottom: 3px solid black;
-}
-.about-me-container {
-  display: flex;
-  flex: 2;
-}
 h1 {
-  display: flex;
   font-family: "TAN - twinkle";
   text-transform: uppercase;
-  text-align: center;
-  justify-content: center;
 }
-img {
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-
-.about-me-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .about-me-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-family: "Nunito Sans", serif;
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 2rem;
 }
 
 @media (max-width: 768px) {
-  .about-me-page {
+  .about-me-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Ajouté pour centrer horizontalement */
-  }
-  .about-me-description,
-  .about-me-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Ajouté pour centrer horizontalement */
-    padding: 1rem; /* Pour un peu de marge intérieure */
-    margin: 1rem 0; /* Espacement vertical entre les éléments */
-    font-size: 1rem;
+    align-items: center;
+    text-align: center;
   }
   img {
-    width: 80%; /* Utilisation de pourcentage pour une meilleure adaptabilité */
-    max-width: 150px; /* Limite maximum pour ne pas trop agrandir */
-    height: auto; /* Pour garder les proportions de l'image */
+    padding-top: 2rem;
+    width: 100%;
+    max-width: 15rem;
+    height: auto;
     object-fit: contain;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .about-me-description {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .about-me-page {
+    display: flex;
+    border-bottom: 3px solid black;
+  }
+  .about-me-container {
+    display: flex;
+    flex: 2;
+  }
+  .about-me-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 15rem;
+    object-fit: contain;
+    height: auto;
+    padding-left: 2rem;
+  }
+  .about-me-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  img {
+    width: 35rem;
+    font-size: 2rem;
+  }
+  .about-me-description {
+    padding: 3rem;
   }
 }
