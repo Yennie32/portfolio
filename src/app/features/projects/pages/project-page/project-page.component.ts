@@ -1,10 +1,17 @@
 import { Component } from '@angular/core';
 import { PageTitleComponent } from '../../../../shared/components/page-title/page-title.component';
 import { CommonModule, NgFor, NgForOf } from '@angular/common';
+import { CarouselComponent } from '../../components/carousel/carousel.component';
 
 @Component({
   selector: 'app-project-page',
-  imports: [PageTitleComponent, CommonModule, NgFor, NgForOf],
+  imports: [
+    PageTitleComponent,
+    CommonModule,
+    NgFor,
+    NgForOf,
+    CarouselComponent,
+  ],
   standalone: true,
   templateUrl: './project-page.component.html',
   styleUrl: './project-page.component.css',

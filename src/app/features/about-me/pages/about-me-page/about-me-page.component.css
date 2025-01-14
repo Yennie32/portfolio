@@ -60,7 +60,7 @@ h1 {
 }
 @media (min-width: 1200px) {
   img {
-    width: 35rem;
+    width: 25rem;
     font-size: 2rem;
   }
   .about-me-description {
