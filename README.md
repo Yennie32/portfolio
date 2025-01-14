@@ -29,6 +29,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## NEXT STEPS
 
 - PROJECT PAGE :
+- image slider :
+  - to style
+  - service TBD
+  - description bind to do
 - anchor links header
   - https://community.spiceworks.com/t/angular-link-to-content-skip-to-content/785543
   - from button to swipe
