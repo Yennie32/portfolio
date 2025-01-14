@@ -1,1 +1,18 @@
-<p>carousel works!</p>
+<section class="slider-container">
+  <div class="slider-images">
+    @for (project of projects; track project.id) {
+    <div
+      class="slider-img"
+      [class.active]="selectedProject === project.id"
+      (click)="selectProject(project.id)"
+    >
+      <img [src]="project.image" [alt]="project.name" />
+      <h1>{{ project.name }}</h1>
+      <div class="details">
+        <h2>{{ project.name }}</h2>
+        <p>{{ project.role }}</p>
+      </div>
+    </div>
+    }
+  </div>
+</section>

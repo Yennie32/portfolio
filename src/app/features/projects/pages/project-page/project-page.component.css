@@ -1,4 +1,4 @@
-.project-page {
+/* .project-page {
   display: flex;
   border-bottom: 3px solid black;
 }
@@ -45,7 +45,7 @@ img {
 }
 .carousel-slide {
   position: relative;
-  text-align: center; /* Centre le contenu du slide */
+  text-align: center;
 }
 .carousel-container button {
   position: absolute;
@@ -77,12 +77,10 @@ button:first-of-type:hover {
   transition: box-shadow 1s;
 }
 
-/* Bouton précédent */
 .carousel-container button:first-of-type {
   left: 10px;
 }
 
-/* Bouton suivant */
 .carousel-container button:last-of-type {
   right: 10px;
 }
@@ -95,9 +93,9 @@ button:first-of-type:hover {
 
   .carousel-slide h2 {
     padding: 1rem;
-    display: inline-block; /* Permet de positionner les boutons par rapport au h2 */
+    display: inline-block;
     position: relative;
-    z-index: 1; /* Assure que le h2 reste au-dessus des boutons */
+    z-index: 1;
   }
   .carousel-container {
     justify-content: center;
@@ -113,11 +111,11 @@ button:first-of-type:hover {
     border-bottom: 3px solid black;
   }
   .carousel-container button:first-of-type {
-    left: 10px; /* Bouton précédent aligné à gauche */
+    left: 10px;
   }
 
   .carousel-container button:last-of-type {
-    right: 10px; /* Bouton suivant aligné à droite */
+    right: 10px;
   }
   .carousel-container button {
     position: absolute;
@@ -128,4 +126,4 @@ button:first-of-type:hover {
     font-size: 2rem;
     cursor: pointer;
   }
-}
+} */
