@@ -1,12 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-
-interface Projects {
-  id: number;
-  name: string;
-  role: string;
-  image: string;
-}
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-carousel',
@@ -14,55 +7,55 @@ interface Projects {
   templateUrl: './carousel.component.html',
   styleUrl: './carousel.component.css',
 })
-export class CarouselComponent {
-  selectedProject = 4; // Default active project
+export class CarouselComponent implements OnInit {
+  id!: number;
+  name!: string;
+  role!: string;
+  image!: string;
+  // description?: string;
 
-  projects: Projects[] = [
+  ngOnInit(): void {
     {
-      id: 1,
-      name: 'Mike',
-      role: 'Web3 Developer',
-      image: '/assets/img/1.png',
-    },
+      this.id = 1;
+      this.name = 'Mike';
+      this.role = 'Web3 Developer';
+      this.image = '/assets/img/1.png';
+    }
     {
-      id: 2,
-      name: 'Samite',
-      role: 'Wordpress Developer',
-      image: '/assets/img/2.png',
-    },
+      this.id = 2;
+      this.name = 'Samite';
+      this.role = 'Wordpress Developer';
+      this.image = '/assets/img/2.png';
+    }
     {
-      id: 3,
-      name: 'Hashi',
-      role: 'Java Developer',
-      image: '/assets/img/3.png',
-    },
+      this.id = 3;
+      this.name = 'Hashi';
+      this.role = 'Java Developer';
+      this.image = '/assets/img/3.png';
+    }
     {
-      id: 4,
-      name: 'Kaity',
-      role: 'Web Developer',
-      image: '/assets/img/4.png',
-    },
+      this.id = 4;
+      this.name = 'Kaity';
+      this.role = 'Web Developer';
+      this.image = '/assets/img/4.png';
+    }
     {
-      id: 5,
-      name: 'Lauren',
-      role: 'PHP Developer',
-      image: '/assets/img/5.png',
-    },
+      this.id = 5;
+      this.name = 'Lauren';
+      this.role = 'PHP Developer';
+      this.image = '/assets/img/5.png';
+    }
     {
-      id: 6,
-      name: 'Ryan',
-      role: 'SEO Developer',
-      image: '/assets/img/6.png',
-    },
+      this.id = 6;
+      this.name = 'Ryan';
+      this.role = 'SEO Developer';
+      this.image = '/assets/img/6.png';
+    }
     {
-      id: 7,
-      name: 'Dakes',
-      role: 'SQL Developer',
-      image: '/assets/img/7.png',
-    },
-  ];
-
-  selectProject(id: number) {
-    this.selectedProject = id;
+      this.id = 7;
+      this.name = 'Dakes';
+      this.role = 'SQL Developer';
+      this.image = '/assets/img/7.png';
+    }
   }
 }
