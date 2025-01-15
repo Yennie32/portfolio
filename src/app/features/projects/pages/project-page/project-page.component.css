@@ -5,10 +5,7 @@
     align-items: center;
     border-bottom: 3px solid black;
   }
-  .page-title {
-    display: flex;
-    flex: 1;
-  }
+
   .slider-div {
     display: flex;
     flex: 2;
