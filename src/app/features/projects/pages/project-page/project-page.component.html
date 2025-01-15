@@ -2,20 +2,5 @@
   <div class="page-title">
     <app-page-title [title]="'projets'"></app-page-title>
   </div>
-  <app-carousel></app-carousel>
-  <!-- <div class="carousel-container">
-    <div
-      class="carousel-slide"
-      *ngFor="let slide of slides; let i = index"
-      [class.active]="i === currentSlide"
-    >
-      <h2>{{ slide.title }}</h2>
-      <img [src]="slide.image" alt="{{ slide.title }}" />
-      <h3>{{ slide.infos }}</h3>
-      <p>{{ slide.description }}</p>
-      <a href="'https://github.com/'">{{ slide.github }}</a>
-    </div>
-    <button (click)="previousSlide()">&lt;</button>
-    <button (click)="nextSlide()">&gt;</button>
-  </div> -->
+  <app-carousel />
 </div>

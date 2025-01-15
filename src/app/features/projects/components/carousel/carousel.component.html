@@ -1,7 +1,7 @@
-<section class="slider-container">
+<div class="slider-container">
   <div class="slider-images">
-    @for (project of projects; track project.id) {
     <div
+      *ngFor="let project of projects"
       class="slider-img"
       [class.active]="selectedProject === project.id"
       (click)="selectProject(project.id)"
@@ -13,6 +13,5 @@
         <p>{{ project.role }}</p>
       </div>
     </div>
-    }
   </div>
-</section>
+</div>
